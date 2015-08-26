@@ -1,0 +1,16 @@
+# Application
+wp-content/plugins/*
+!wp-content/plugins/.gitkeep
+wp-content/mu-plugins/*
+!wp-content/mu-plugins/.gitkeep
+wp-content/themes/*
+!wp-content/themes/.gitkeep
+wp-content/uploads
+
+# WordPress
+wp
+wp-config.php
+
+# Vendor (e.g. Composer)
+vendor/*
+!vendor/.gitkeep

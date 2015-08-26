@@ -1,0 +1,6 @@
+path: wp
+url: http://localhost:8080
+core config:
+    extra-php: |
+        define( 'WP_DEBUG', true );
+        define( 'WP_POST_REVISIONS', 10 );

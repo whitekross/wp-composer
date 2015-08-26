@@ -1,0 +1,28 @@
+{
+  "name": "whitekross/wp-composed",
+  "type": "project",
+  "license": "MIT",
+  "description": "A WordPress stack sample using Composer and WP-Cli",
+  "homepage": "http://alessandrofiore.com/",
+  "authors": [
+    {
+      "name": "Alessandro Fiore",
+      "email": "fiore.alessandro@yahoo.it"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "4.3",
+    "wp-cli/wp-cli": "dev-master",
+    "wpackagist-theme/hueman":"*"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp"
+  }
+}
