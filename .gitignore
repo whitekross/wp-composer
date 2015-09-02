@@ -9,7 +9,7 @@ wp-content/uploads
 
 # WordPress
 wp
-wp-config.php
+wp-cli.yml
 
 # Vendor (e.g. Composer)
 vendor/*

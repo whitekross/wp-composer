@@ -20,9 +20,17 @@
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.3",
     "wp-cli/wp-cli": "dev-master",
-    "wpackagist-theme/hueman":"*"
+    "wpackagist-theme/hueman":"*",
+    "wpackagist-plugin/akismet":"dev-trunk"
   },
   "extra": {
     "wordpress-install-dir": "wp"
+  },
+  "require-dev": {
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php -r \"copy('wp-cli-sample.yml', 'wp-cli.yml');\""
+    ]
   }
 }

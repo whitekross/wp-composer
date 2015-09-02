@@ -1,10 +1,10 @@
 path: wp
-url: http://localhost:8080
+url: http://<host>
 
 core config:
-    dbhost: 127.0.0.1
-    dbname: wordpress_composer
-    dbuser: root
+    dbhost:
+    dbname:
+    dbuser:
     dbpass: 
     extra-php: |
         define( 'WP_DEBUG', true );
@@ -14,7 +14,7 @@ core config:
         define( 'WP_SITEURL','http://' . $_SERVER['HTTP_HOST'].'/wp');
 
 core install:
-    title: "WP COMPOSER"
-    admin_user: admin
-    admin_email: 'fiore.alessandro@yahoo.it'
-    admin_password: pwd_test
+    title: 
+    admin_user:
+    admin_email: ''
+    admin_password:

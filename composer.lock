@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6c152c4b2c31b8585396b678bcf72164",
+    "hash": "bf6f41c00e714abed838a2dd0af7d0dd",
     "packages": [
         {
             "name": "composer/installers",
@@ -472,12 +472,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "21067e1da4f209b931177ea024a54f6389694465"
+                "reference": "43ab39b9d776fa798e5c1d59adc0d5ea4bcf2ddb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/21067e1da4f209b931177ea024a54f6389694465",
-                "reference": "21067e1da4f209b931177ea024a54f6389694465",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/43ab39b9d776fa798e5c1d59adc0d5ea4bcf2ddb",
+                "reference": "43ab39b9d776fa798e5c1d59adc0d5ea4bcf2ddb",
                 "shasum": ""
             },
             "require": {
@@ -522,7 +522,28 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2015-08-26 04:21:31"
+            "time": "2015-09-01 21:35:08"
+        },
+        {
+            "name": "wpackagist-plugin/akismet",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/akismet/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/akismet/",
+            "time": "2015-08-24 04:32:46"
         },
         {
             "name": "wpackagist-theme/hueman",
@@ -549,7 +570,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wp-cli/wp-cli": 20
+        "wp-cli/wp-cli": 20,
+        "wpackagist-plugin/akismet": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
