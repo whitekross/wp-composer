@@ -1,11 +1,11 @@
 # Application
-wp-content/plugins/*
-!wp-content/plugins/.gitkeep
-wp-content/mu-plugins/*
-!wp-content/mu-plugins/.gitkeep
-wp-content/themes/*
-!wp-content/themes/.gitkeep
-wp-content/uploads
+src/plugins/*
+!src/plugins/.gitkeep
+src/mu-plugins/*
+!src/mu-plugins/.gitkeep
+src/themes/*
+!src/themes/.gitkeep
+src/uploads
 
 # WordPress
 wp

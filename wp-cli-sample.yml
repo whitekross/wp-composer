@@ -5,16 +5,17 @@ core config:
     dbhost:
     dbname:
     dbuser:
-    dbpass: 
+    dbpass:
+    # useful for application to work correctly 
     extra-php: |
-        define( 'WP_DEBUG', true );
-        define( 'WP_POST_REVISIONS', 10 );
-        define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/../wp-content' );
-        define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
+        define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/../src' );
+        define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/src' );
         define( 'WP_SITEURL','http://' . $_SERVER['HTTP_HOST'].'/wp');
+        define( 'WP_DEBUG', true ); # change on production
+        define( 'WP_POST_REVISIONS', 10 ); # sample of custom wordpress constant
 
 core install:
-    title: 
+    title:
     admin_user:
     admin_email: ''
     admin_password:

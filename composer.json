@@ -20,6 +20,7 @@
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.3",
     "wp-cli/wp-cli": "dev-master",
+    "wp-api/wp-api": "2.0-beta4",
     "wpackagist-theme/hueman":"*",
     "wpackagist-plugin/akismet":"dev-trunk"
   },

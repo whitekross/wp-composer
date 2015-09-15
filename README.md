@@ -10,9 +10,13 @@
 
     ./vendor/bin/wp core install
     
-4 - Update Wordpress option and activete the installed theme
+4 - Update Wordpress option and activate the installed theme
 
-    ./vendor/bin/wp theme activate 'hueman'
+    ./vendor/bin/wp theme activate hueman
+
+5 - Update plugins (optional)
+    
+    ./vendor/bin/wp plugin activate json-rest-api akismet
 
 6 - Launch built-in server (for development)
 

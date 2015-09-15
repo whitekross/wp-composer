@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bf6f41c00e714abed838a2dd0af7d0dd",
+    "hash": "5bf520c2ab81bab248132140deddf802",
     "packages": [
         {
             "name": "composer/installers",
@@ -369,16 +369,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.7.3",
+            "version": "v2.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "ae0f363277485094edc04c9f3cbe595b183b78e4"
+                "reference": "fff4b0c362640a0ab7355e2647b3d461608e9065"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/ae0f363277485094edc04c9f3cbe595b183b78e4",
-                "reference": "ae0f363277485094edc04c9f3cbe595b183b78e4",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/fff4b0c362640a0ab7355e2647b3d461608e9065",
+                "reference": "fff4b0c362640a0ab7355e2647b3d461608e9065",
                 "shasum": ""
             },
             "require": {
@@ -414,7 +414,45 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-09 16:07:40"
+            "time": "2015-08-26 17:56:37"
+        },
+        {
+            "name": "wp-api/wp-api",
+            "version": "2.0-beta4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WP-API/WP-API.git",
+                "reference": "f5c5ffc5e6ef1378e33497ac918b1471b6879b55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WP-API/WP-API/zipball/f5c5ffc5e6ef1378e33497ac918b1471b6879b55",
+                "reference": "f5c5ffc5e6ef1378e33497ac918b1471b6879b55",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "require-dev": {
+                "wp-coding-standards/wpcs": "dev-develop"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "json-rest-api"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL2+"
+            ],
+            "authors": [
+                {
+                    "name": "WP-API Team",
+                    "homepage": "http://wp-api.org/"
+                }
+            ],
+            "description": "Access your WordPress site's data through an easy-to-use HTTP REST API.",
+            "homepage": "http://wp-api.org/",
+            "time": "2015-08-14 07:18:30"
         },
         {
             "name": "wp-cli/php-cli-tools",
@@ -472,12 +510,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "43ab39b9d776fa798e5c1d59adc0d5ea4bcf2ddb"
+                "reference": "39052582f3d2e3819727fe9a8ee152f634344776"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/43ab39b9d776fa798e5c1d59adc0d5ea4bcf2ddb",
-                "reference": "43ab39b9d776fa798e5c1d59adc0d5ea4bcf2ddb",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/39052582f3d2e3819727fe9a8ee152f634344776",
+                "reference": "39052582f3d2e3819727fe9a8ee152f634344776",
                 "shasum": ""
             },
             "require": {
@@ -522,7 +560,7 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2015-09-01 21:35:08"
+            "time": "2015-09-13 14:52:44"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -543,7 +581,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/akismet/",
-            "time": "2015-08-24 04:32:46"
+            "time": "2015-09-08 10:57:10"
         },
         {
             "name": "wpackagist-theme/hueman",
@@ -571,6 +609,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "wp-cli/wp-cli": 20,
+        "wp-api/wp-api": 10,
         "wpackagist-plugin/akismet": 20
     },
     "prefer-stable": false,
