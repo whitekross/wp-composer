@@ -16,7 +16,7 @@
 
 5 - Update plugins (optional)
     
-    ./vendor/bin/wp plugin activate json-rest-api akismet
+    ./vendor/bin/wp plugin activate json-rest-api wp-badge-poser akismet 
 
 6 - Launch built-in server (for development)
 
