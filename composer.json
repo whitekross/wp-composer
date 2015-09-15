@@ -22,7 +22,8 @@
     "wp-cli/wp-cli": "dev-master",
     "wp-api/wp-api": "2.0-beta4",
     "wpackagist-theme/hueman":"*",
-    "wpackagist-plugin/akismet":"dev-trunk"
+    "wpackagist-plugin/akismet":"dev-trunk",
+    "whitekross/wp-badge-poser": "dev-master"
   },
   "extra": {
     "wordpress-install-dir": "wp"
