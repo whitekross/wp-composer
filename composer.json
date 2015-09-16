@@ -18,14 +18,19 @@
   ],
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "4.3",
-    "wp-cli/wp-cli": "dev-master",
+    "johnpbloch/wordpress": "4.3.1",
+    "wp-cli/wp-cli": "v0.20.0",
     "wp-api/wp-api": "2.0-beta4",
-    "wpackagist-theme/hueman":"*",
-    "wpackagist-plugin/akismet":"dev-trunk",
-    "whitekross/wp-badge-poser": "dev-master"
+    "wpackagist-plugin/akismet":"~3.1",
+    "whitekross/wp-badge-poser": "dev-master",
+    "wpackagist-theme/hueman":"~1.5"
   },
   "extra": {
+    "installer-paths": {
+      "src/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "src/plugins/{$name}/": ["type:wordpress-plugin"],
+      "src/themes/{$name}/": ["type:wordpress-theme"]
+    },
     "wordpress-install-dir": "wp"
   },
   "require-dev": {
