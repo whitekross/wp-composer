@@ -3,11 +3,12 @@
   "type": "project",
   "license": "MIT",
   "description": "A WordPress stack sample using Composer and WP-Cli",
-  "homepage": "http://alessandrofiore.com/",
+  "homepage": "https://github.com/whitekross/wp-composer",
   "authors": [
     {
       "name": "Alessandro Fiore",
-      "email": "fiore.alessandro@yahoo.it"
+      "email": "fiore.alessandro@yahoo.it",
+      "homepage": "https://github.com/whitekross"
     }
   ],
   "repositories": [
