@@ -38,7 +38,7 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "php -r \"copy('wp-cli-sample.yml', 'wp-cli.yml');\""
+      "cp wp-cli-sample.yml wp-cli.yml"
     ]
   }
 }
