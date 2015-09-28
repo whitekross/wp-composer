@@ -11,8 +11,7 @@ core config:
         define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/../src' );
         define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/src' );
         define( 'WP_SITEURL','http://' . $_SERVER['HTTP_HOST'].'/wp');
-        define( 'WP_DEBUG', true ); # change on production
-        define( 'WP_POST_REVISIONS', 10 ); # sample of custom wordpress constant
+        define( 'WP_HOME','http://' . $_SERVER['HTTP_HOST'].'/');
 
 core install:
     title:
