@@ -12,6 +12,8 @@ core config:
         define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/src' );
         define( 'WP_SITEURL','http://' . $_SERVER['HTTP_HOST'].'/wp');
         define( 'WP_HOME','http://' . $_SERVER['HTTP_HOST'].'/');
+        // composer vendor autoload
+        require( dirname( __FILE__ ) . '/../vendor/autoload.php' );
 
 core install:
     title:
